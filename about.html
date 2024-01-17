@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+
+    <style>
+       /*navbar start*/
+       nav {
+        width: 100%;
+        height: 100px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-inline: 30px;
+    }
+    .logo {
+        font-size: 30px;
+        letter-spacing: 1px;
+    }
+    .menu a { 
+         text-decoration: none;
+        color: black;
+        font-size: 20px;
+        padding: 20px;
+        position: relative;
+    }
+    .log-in a{ 
+        text-decoration: none;
+        color: white;
+        background-color: black;
+        border-radius: 4px;
+        padding: 10px 20px;
+        transition: 0.5s;
+    }
+    .log-in a:hover{
+        background-color: transparent;
+        color: black;
+        border: 2px solid blue;
+    }
+      /*navbar end*/
+        
+      *{
+       margin: 0px;
+       padding: 0px;
+       box-sizing: border-box;
+       font-family: 'Courier New', Courier, monospace;
+      }
+      .section{
+       min-height:100vh;
+       width: 100%;
+       background-color: rgb(156, 189, 195);
+      }
+      .container{
+       width: 80%;
+       display: block;
+       margin: auto;
+       padding-top: 100px;
+      }
+      .content{
+       float: left;
+       width: 55%;
+      }
+      .image-section{
+       float: right;
+       width: 40%;
+      }
+      .image-section img{
+       width: 50%;
+       height: auto;
+      }
+      .content.title{
+       margin-top: 20%;
+       text-transform: uppercase;
+       font-size: 28px;
+      }
+      .content.content h3{
+       margin-top: 20px;
+       color: #18386b;
+      }
+      .content.content p{
+       margin-top: 10px;
+       font-size: 17px;
+      }
+      .content.content .button{
+       margin-top: 30px;
+      }
+      .content.content.button a{
+       padding: 20px 40px;
+       font-size: 25px;
+       text-decoration: none;
+       color: blueviolet;
+       inline-size: 15px;
+      }
+      .content.content.button a:hover{
+       background-color: rgb(18, 110, 110);
+      }
+      .content.content .social{
+       margin:40px 40px;
+      }
+      .content.content .social i{
+      color: rgb(51, 138, 224);
+      padding: 0px 10px;
+      size: 30px;
+      }
+      @media  screen and (max-width:768px) {
+       .container{
+       width: 80%;
+       display: block;
+       margin: auto;
+       padding-top: 50px;
+      }
+      .content{
+       float: none;
+       width: 100%;
+       display: block;
+       margin: auto;
+      }
+      .image-section{
+       float: none;
+       width: 100%;
+      }
+      .image-section img{
+       display: block;
+       margin: auto;
+       height: auto;
+       width: 100%;
+      }
+      .content.title{
+       text-align: center;
+       font-size: 19px;
+      }
+      .content.content.button{
+       text-align: center;
+      }
+      .content.content.button a{
+       padding: 9px 30px;
+      }
+      .content.content .social{
+       text-align: center;
+      }
+      }
+
+      /*feedbacl*/
+
+      .feedback{
+       padding: 40px 0px;
+       background-color: #f1f1f1;
+       color: #434343;
+       text-align: center;
+      }
+      .inner{
+      max-width: 1200px;
+      margin: auto;
+      overflow: hidden;
+      padding: 0 20px;
+      }
+      .border{
+      width: 160px;
+      height: 5px;
+      background-color: rgb(12, 53, 128);
+      margin: 26px auto;
+      }
+      .row{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content:center ;
+      }
+      .col{
+        flex: 33.33%;
+        max-width: 33.33%;
+        box-sizing: border-box;
+        padding: 15px;
+      }
+      .client{
+        background: #fff;
+        padding: 30px;
+      }
+      .client img{
+        width: 100px;
+        height: 100px;
+        border-radius: 50px;
+      }
+      .name{
+        font-size: 20px;
+        text-transform: uppercase ;
+        font-style: italic;
+        margin: 20px 0;
+      }
+      .stars{
+        color: aqua;
+        margin-bottom: 20px;
+      }
+      
+      @media screen and (max-width:600px) {
+        .col{
+          flex:100%;
+          max-width: 100%;
+        }
+        
+      }
+    </style>
+</head>
+<body> 
+     
+  <nav>
+    <div class="headerofpage">
+        <div class="logo">
+            <hr>
+            <b>WEB  <span style="color: blue;">Developer </span></b>
+            <hr>
+        </div>    
+    </div>
+    <div class="menu">
+        <a href="index.html">Home</a>
+        <a href="services.html">Services</a>
+        <a href="about.html">About</a>
+    </div>
+    <div class="log-in">
+        <a href="joinus.html">Subscribe Us</a>
+    </div>
+</nav>
+  
+
+<div class="section">
+<div class="container">
+  <div class="image-section">
+   <img src="images/manager.png" alt="manager"> 
+  </div>
+
+<div class="title">
+<h1>LET’S
+    INTRODUCE</h1>
+</div>
+
+<div class="content">
+<h3>Introduce about My Team</h3>
+<p>
+        Whose given. Were gathered. There first subdue greater. Bearing you Whales heaven midst their. Beast creepeth. Fish days.
+
+Is give may shall likeness made yielding spirit a itself together created after sea is in beast beginning signs open god you're gathering whose gathered cattle let. Creature whales fruit unto meat the life beginning all in under give two.</p>
+
+
+<div class="button">
+<a class="btn btn-info" href="https://www.cvplaza.com/wp-content/uploads/2013/10/example-of-a-good-cv.png"> <span style="color: rgb(57, 55, 117);">My CV </span></a>
+</div>
+
+<div class="social">
+  <a href=""><i class="fab fa-facebook"></i></a>
+  <a href=""><i class="fab fa-twitter"></i></a>
+  <a href=""><i class="fab fa-instagram"></i></a>
+</div>
+
+</div>
+</div>
+</div>
+
+<div class="feedback">
+
+  <div class="inner">
+
+    <h1>FEEDBACK OF CLIENTS</h1>
+    <div class="border"></div>
+    
+    <div class="row">
+      <div class="col">
+        <div class="client">
+          <img src="images/client 1.jpg">
+          <div class="name">Khuzaima Awan</div>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="far fa-star"></i>
+          </div>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col">
+        <div class="client">
+          <img src="images/client 2.jpg">
+          <div class="name">Malik Shaber</div>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="far fa-star"></i>
+            <i class="far fa-star"></i>
+          </div>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+          </p>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<script defer src="https://use.fontawesome.com/releases/v5.15.4/js/all.js" integrity="sha384-rOA1PnstxnOBLzCLMcre8ybwbTmemjzdNlILg8O7z1lUkLXozs4DHonlDtnE7fpc" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>

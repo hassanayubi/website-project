@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Join us</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+
+    <style>
+        * {
+           margin: 0;
+           padding: 0;
+            box-sizing: border-box;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+        header {
+            font-family: sans-serif;
+            width: 100%;
+            height: 100vh;
+            background-color: transparent;
+        }
+        nav {
+            width: 100%;
+            height: 100px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding-inline: 30px;
+        }
+        .logo {
+            font-size: 30px;
+            letter-spacing: 1px;
+        }
+        .menu a { 
+             text-decoration: none;
+            color: black;
+            font-size: 20px;
+            padding: 20px;
+            position: relative;
+        }
+        .log-in a{ 
+            text-decoration: none;
+            color: white;
+            background-color: black;
+            border-radius: 4px;
+            padding: 10px 20px;
+            transition: 0.5s;
+        }
+        .log-in a:hover{
+            background-color: transparent;
+            color: black;
+            border: 2px solid blue;
+        }
+
+        /*contact form*/
+        .contact{
+            min-height: 100vh;
+            background-color: rgb(151, 206, 228);
+            padding: 50px;
+            text-align: center;
+        }
+        .container{
+            max-width: 800px;
+            margin: auto 0px;
+        }
+        .container h2{
+            font-size: 32px;
+            margin-bottom: 20px;
+            color: #333;
+        }
+        .contact-wrapper{
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            grid-gap: 30px;
+        }
+        .contact-form{
+            text-align: left;
+        }
+        .contact-form h3{
+            font-size: 24px;
+            margin-bottom: 20px;
+            color: #333;
+        }
+        .form{
+            margin-bottom: 20px;
+        }
+        input, textarea{
+            width: 100%;
+            padding: 12px;
+            border-radius: 8px;
+            border: none;
+            background-color: #f8f9fa;
+            color: #333;
+        }
+        input:focus,
+        textarea:focus{
+            outline: none;
+            box-shadow: 0 0 8px #bbb;
+        }
+        button{
+            display: inline-block;
+            padding: 12px 24px;
+            background-color: rgb(73, 119, 119);
+            color: #fff;
+            border: none;
+            cursor: pointer;
+            transition: 0.3s ease;
+        }
+        button:hover{
+            background-color: rgb(74, 111, 107);
+        }
+        .contact-info{
+            text-align: left;
+        }
+        .contact-info h3{
+            font-size: 23px;
+            margin-bottom: 20px;
+            color: #fff;
+        }
+        .contact-info p{
+            margin-bottom: 10px;
+            color: #555;
+        }
+        .contact-info i{
+            color: rgb(35, 92, 73);
+            margin-right: 10px;
+        }
+        @media  screen and (max-width: 768px) {
+            .container{
+                padding: 20px;
+            }
+            .contact-wrapper{
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+
+</style>
+</head>
+<body>
+
+
+    <nav>
+        <div class="headerofpage">
+            <div class="logo">
+                <hr>
+                <b>WEB  <span style="color: blue;">Developer </span></b>
+                <hr>
+            </div>  
+        </div>
+        <div class="menu">
+            <a href="index.html">Home</a>
+            <a href="services.html">Services</a>
+            <a href="about.html">About</a>
+        </div>
+        <div class="log-in">
+            <a href="joinus.html">Subscribe Us</a>
+        </div>
+    </nav>
+
+<section class="contact">
+    <div class="container">
+        <h2>Contact Us</h2>
+        <div class="contact-wrapper">
+
+            <div class="contact-form">
+                <h3>Join us now</h3>
+
+                <form >
+                <div class="form">
+                    <input type="text" name="name" placeholder="Your Name">
+                </div>
+                <div class="form">
+                    <input type="email" name="email" placeholder="Your Email">
+                </div>
+                <div class="form">
+                    <textarea name="message" placeholder="Your Message"></textarea>
+                </div>
+                <button type="submit">SEND MESSAGE</button>
+                </form>
+            </div>
+
+            <div class="contact-info">
+                <h3>Contact Information</h3>
+                <p><i class="fas fa-phone"></i>(+1) 123 156 789</p>
+                <p><i class="fas fa-envelope"></i>contactus@gmail.com</p>
+                <p><i class="fas fa-map-marker-alt"></i>524 Street, Farm PALACE</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+
+    <script defer src="https://use.fontawesome.com/releases/v5.15.4/js/all.js" integrity="sha384-rOA1PnstxnOBLzCLMcre8ybwbTmemjzdNlILg8O7z1lUkLXozs4DHonlDtnE7fpc" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    
+</body>
+</html>
